@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import requests
 from requests.auth import HTTPBasicAuth
 from flask import Flask, request, jsonify
@@ -82,4 +80,4 @@ def events():
     return(html)
             
 if __name__ == '__main__':
-    app.run(port=9000)
+    app.run(port=3000)

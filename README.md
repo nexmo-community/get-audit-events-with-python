@@ -16,8 +16,9 @@ Tested with Python 3
 
 ## Running the application
 
-1. Navigate to `localhost:3000`
-2. Select a specific event type or ALL (to retrieve all event types)
-3. Click `Submit`
+1. Run the app `python3 audit_events.py` 
+2. Navigate to `localhost:3000`
+3. Select a specific event type or ALL (to retrieve all event types)
+4. Click `Submit`
 
 You will be presented with a table of audit events.
